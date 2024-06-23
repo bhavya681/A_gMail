@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "clone-2401f",
+    "development": "clone-2401f"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
