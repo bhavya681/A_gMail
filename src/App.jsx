@@ -213,7 +213,7 @@ const App = () => {
                 )}
               </Routes>
             </div>
-            {user && (
+            {!user && (
               <div className="hidden md:block w-1/4 lg:w-1/5"> {/* Right sidebar for medium and large screens */}
                 <RightSideBar />
               </div>
