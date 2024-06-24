@@ -153,9 +153,9 @@ const App = () => {
   return (
     <div className="bg-[#F6F8FC] min-h-screen overflow-hidden flex flex-col">
       <Router>
-        {user && <Navbar />}
+        {!user && <Navbar />}
         <div className="flex flex-1">
-          {user && (
+          {!user && (
             <div className="block md:w-1/4 lg:w-1/5"> {/* Sidebar for medium and large screens */}
               <SideBar />
             </div>
@@ -164,7 +164,7 @@ const App = () => {
             <div className="flex-1 overflow-auto p-4">
               <Toaster />
               <Routes>
-                {!user ? (
+                {user ? (
                   <>
                     <Route path="/login" element={<Login />} />
                     <Route path="*" element={<Navigate to="/login" />} />

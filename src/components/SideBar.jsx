@@ -262,7 +262,7 @@ const SideBar = () => {
   return (
     <>
       {navOn && (
-        <div className="w-full md:w-[250px] bg-white h-screen shadow-lg rounded-[23px] overflow-y-scroll no-scrollbar">
+        <div className="w-full md:w-[250px] bg-white h-screen shadow-lg rounded-[13px] mt-2 overflow-y-scroll no-scrollbar">
           <div className="p-3">
             <button
               className="flex items-center gap-2 p-3 rounded-2xl bg-[#C2E7FF] hover:shadow-md"

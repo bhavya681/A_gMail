@@ -245,7 +245,7 @@ const SendMail = () => {
   return (
     <>
       <Toaster />
-      <div className="bg-white max-w-6xl shadow-xl shadow-slate-600 rounded-t-md  w-[70%] md:w-[38%] h-[56%] md:h-[60%] absolute right-6 md:right-20 bottom-0 z-10">
+      <div className="bg-white max-w-6xl shadow-xl shadow-slate-600 rounded-t-md  w-[80%] md:w-[38%] h-[53%] md:h-[50%] absolute right-6 md:right-20  bottom-0 z-10">
         <div className="flex px-3 py-2 bg-[#F2F6FC] p-1 justify-between rounded-t-md">
           <h1 className="bg-[#F2F6FC] p-1 font-bold font-sans text-lg">
             New Message

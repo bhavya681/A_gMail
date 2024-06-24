@@ -220,7 +220,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex items-center justify-between px-4 py-2 bg-white shadow-md">
+      <div className="flex items-center justify-between px-4 py-4 bg-white shadow-md">
         {/* Left Section: Logo and Menu */}
         <div className="flex items-center gap-2">
           <div className="p-2 rounded-full hover:bg-gray-100 cursor-pointer">
